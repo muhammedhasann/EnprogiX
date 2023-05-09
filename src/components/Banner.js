@@ -50,26 +50,28 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
-          <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to EnprogiX</span>
-                <h1>{`Hi! Welcome to EnprogiX Club, where we work on `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Energy", "AI", "Engineering" ]'><span className="wrap">{text}</span></span></h1>
-                  <button onClick={() => console.log('project')}>Explore our  projects <ArrowRightCircle size={25} /></button>
-              </div>}
-            </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+          <div className="container">
+          <Row className="aligh-items-center">
+            <Col xs={12} md={6} xl={7}>
+              <TrackVisibility>
+                {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <span className="tagline">Welcome to EnprogiX</span>
+                  <h1>{`Hi! Welcome to EnprogiX Club, where we work on `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Energy", "AI", "Engineering" ]'><span className="wrap">{text}</span></span></h1>
+                    <button onClick={() => console.log('project')}>Explore our  projects <ArrowRightCircle size={25} /></button>
                 </div>}
-            </TrackVisibility>
-          </Col>
-        </Row>
+              </TrackVisibility>
+            </Col>
+            <Col xs={12} md={6} xl={5}>
+              <TrackVisibility>
+                {({ isVisible }) =>
+                  <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                    <img src={headerImg} alt="Header Img"/>
+                  </div>}
+              </TrackVisibility>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </section>
   )

@@ -4,9 +4,9 @@ export const Team = () => {
   // For simplicity, we will use a dummy array of club members
   const members = [
     { name: "Muhammed Hasan", role: "President", image: logo },
-    { name: "Muhammed palestine", role: "Vice President", image: logo },
-    { name: "Siham", role: "Secretary", image: logo },
-    { name: "Nmae", role: "Marketer", image: logo }
+    { name: "Muhammed Aboaisha", role: "Vice President", image: logo },
+    { name: "Siham Jamous", role: "Secretary", image: logo },
+    { name: "Takwa", role: "Marketer", image: logo }
 
     // ... more members
   ];
@@ -18,7 +18,7 @@ export const Team = () => {
         {members.map((member) => (
           <div className="member-card" key={member.name}>
             <img src={member.image} alt={member.name} />
-            <h3>{member.name}</h3>
+            <h5>{member.name}</h5>
             <p>{member.role}</p>
           </div>
         ))}
