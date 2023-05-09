@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EnprogiX/static/css/main.d346d65e.css",
-    "main.js": "/EnprogiX/static/js/main.9d79204c.js",
+    "main.css": "/EnprogiX/static/css/main.2516b4e8.css",
+    "main.js": "/EnprogiX/static/js/main.31995456.js",
     "static/js/787.fb771931.chunk.js": "/EnprogiX/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp2.png": "/EnprogiX/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg.png": "/EnprogiX/static/media/banner-bg.cc1273af450504afe755.png",
@@ -19,12 +19,12 @@
     "index.html": "/EnprogiX/index.html",
     "static/media/nav-ico2.svg": "/EnprogiX/static/media/nav-ico2.f623383ee71335fa1f4a7e62f2902fc5.svg",
     "static/media/nav-icon2.svg": "/EnprogiX/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.d346d65e.css.map": "/EnprogiX/static/css/main.d346d65e.css.map",
-    "main.9d79204c.js.map": "/EnprogiX/static/js/main.9d79204c.js.map",
+    "main.2516b4e8.css.map": "/EnprogiX/static/css/main.2516b4e8.css.map",
+    "main.31995456.js.map": "/EnprogiX/static/js/main.31995456.js.map",
     "787.fb771931.chunk.js.map": "/EnprogiX/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d346d65e.css",
-    "static/js/main.9d79204c.js"
+    "static/css/main.2516b4e8.css",
+    "static/js/main.31995456.js"
   ]
 }
